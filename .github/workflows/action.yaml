@@ -1,4 +1,4 @@
-name: Build and deploy silverblue-custom container image
+name: Build and deploy bootc-server container image
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         with:
           containerfiles: |
             ./Containerfile
-          image: silverblue-custom
+          image: bootc-server
           tags: latest
 
       - name: Log in to GitHub container registry
