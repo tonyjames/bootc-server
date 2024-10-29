@@ -1,0 +1,17 @@
+{
+  "include": [
+    "bash-completion",
+    "cockpit",
+    "cockpit-storaged",
+    "cockpit-podman",
+    "cockpit-machines",
+    "guestfs-tools",
+    "ipa-client",
+    "tmux",
+    "tuned",
+    "virt-install",
+    "wget"
+  ],
+  "exclude": [
+  ]
+}
